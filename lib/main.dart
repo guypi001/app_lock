@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            appBar: AppBar(title: Text('User Login Form')),
+            appBar: AppBar(title: Text('Door Lock ')),
             body: Center(child: LoginUser())));
   }
 }
@@ -99,7 +99,7 @@ class LoginUserState extends State {
         children: <Widget>[
           Padding(
               padding: const EdgeInsets.all(12.0),
-              child: Text('User Login Form', style: TextStyle(fontSize: 21))),
+              child: Text('User Door Lock', style: TextStyle(fontSize: 21))),
           Divider(),
           Container(
               width: 280,
