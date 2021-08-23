@@ -39,7 +39,7 @@ class LoginUserState extends State {
     String password = passwordController.text;
 
     // SERVER LOGIN API URL
-    var url = Uri.parse('https://192.168.43.112/serrureconnect/login_user.php');
+    var url = Uri.parse('https://10.0.2.2/serrureconnect/login_user.php');
 
     // Store all data with Param Name.
     var data = {'email': email, 'password': password};
